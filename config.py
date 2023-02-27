@@ -8,13 +8,13 @@ import os
 
 BACKEND = "SlackV3"  # Errbot will start in text mode (console only mode) and will answer commands from there.
 
-BOT_DATA_DIR = r"/app/errbot-heroku/data"
-BOT_EXTRA_PLUGIN_DIR = r"/app/errbot-heroku/plugins"
+BOT_DATA_DIR = r"/app/errbot-discord/data"
+BOT_EXTRA_PLUGIN_DIR = r"/app/errbot-discord/plugins"
 
-BOT_LOG_FILE = r"/app/errbot-heroku/errbot.log"
+BOT_LOG_FILE = r"/app/errbot-discord/errbot.log"
 BOT_LOG_LEVEL = logging.INFO
 
-BOT_EXTRA_BACKEND_DIR = "/app/errbot-heroku/err-backend-slackv3"
+BOT_EXTRA_BACKEND_DIR = "/app/errbot-discord/err-backend-slackv3"
 
 BOT_IDENTITY = {
     'token': os.getenv('TOKEN'),
