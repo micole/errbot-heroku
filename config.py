@@ -10,7 +10,9 @@ BACKEND = "SlackV3"  # Errbot will start in text mode (console only mode) and wi
 
 os.mkdir('/tmp/data')
 BOT_DATA_DIR = r"/tmp/data"
-BOT_EXTRA_PLUGIN_DIR = r"/app/errbot-discord/plugins"
+BOT_EXTRA_PLUGIN_DIR = r"/app/plugins"
+
+BOT_EXTRA_BACKEND_DIR="/app/err-backend-slackv3"
 
 BOT_LOG_FILE = r"/tmp/data/errbot.log"
 BOT_LOG_LEVEL = logging.INFO
