@@ -1,3 +1,0 @@
-[submodule "err-backend-slackv3"]
-	path = err-backend-slackv3
-	url = git@github.com:errbotio/err-backend-slackv3.git
