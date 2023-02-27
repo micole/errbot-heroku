@@ -12,7 +12,7 @@ os.mkdir('/tmp/data')
 BOT_DATA_DIR = r"/tmp/data"
 BOT_EXTRA_PLUGIN_DIR = r"/app/errbot-discord/plugins"
 
-BOT_LOG_FILE = r"/app/errbot-discord/errbot.log"
+BOT_LOG_FILE = r"/tmp/data/errbot.log"
 BOT_LOG_LEVEL = logging.INFO
 
 BOT_EXTRA_BACKEND_DIR = "/app/errbot-discord/err-backend-slackv3"
