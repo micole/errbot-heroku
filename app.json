@@ -1,0 +1,26 @@
+{
+  "name": "Errbot",
+  "description": "An instance of Errbot",
+  "repository": "https://github.com/errbotio/errbot",
+  "logo": "https://errbot.readthedocs.org/en/latest/_static/errbot.png",
+  "keywords": ["python", "errbot"],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "env": [
+    "token": {
+      "description": "The slack bot token",
+      "required": "true"
+    },
+    "signing_secret": {
+      "description": "signing secret",
+      "required": "true"
+    },
+    "app_token": {
+      "description": "app token",
+      "required": "true"
+    } 
+  ]
+}
