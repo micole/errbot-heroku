@@ -8,7 +8,8 @@ import os
 
 BACKEND = "SlackV3"  # Errbot will start in text mode (console only mode) and will answer commands from there.
 
-BOT_DATA_DIR = r"/app/errbot-discord/data"
+os.mkdir('/tmp/data')
+BOT_DATA_DIR = r"/tmp/data"
 BOT_EXTRA_PLUGIN_DIR = r"/app/errbot-discord/plugins"
 
 BOT_LOG_FILE = r"/app/errbot-discord/errbot.log"
